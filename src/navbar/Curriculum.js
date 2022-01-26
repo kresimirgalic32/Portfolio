@@ -1,11 +1,7 @@
 import React from "react";
 
 const Curriculum = () => {
-  return (
-    <div className="curriculum">
-      <p>test</p>
-    </div>
-  );
+  return <div className="curriculum"></div>;
 };
 
 export default Curriculum;

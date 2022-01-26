@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "http://kresimirgalic.com",
+  "homepage": "https://kresimir-galic-portfolio.herokuapp.com/about",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
