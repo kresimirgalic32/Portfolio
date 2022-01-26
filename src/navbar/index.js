@@ -16,11 +16,16 @@ const Index = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
 
-        <Route exact path="about" element={<About />} />
+        <Route exact path="/about" element={<About />} />
 
-        <Route exact path="projects" element={<Projects />} />
+        <Route exact path="/projects" element={<Projects />} />
 
         <Route exact path="/curriculum" element={<Curriculum />} />
+        <Route
+          exact
+          path="https://github.com/kresimirgalic32"
+          element={<Github />}
+        />
 
         <Route path="*" element={<Error />} />
       </Routes>

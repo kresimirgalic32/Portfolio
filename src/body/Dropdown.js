@@ -1,10 +1,18 @@
 import React from "react";
+import $ from "jquery";
 
 const Dropdown = () => {
-  const handleClick = () => {};
+  const handleClick = () => {
+    $("#dropdown").click(function () {
+      $("span").hide();
+    });
+  };
   return (
-    <div className="dropdown">
-      <button type="button" className="btn" onClick={handleClick}></button>
+    <div>
+      <span id="dropdown" className="dropdown">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <button type="button" className="btn" onClick={handleClick}></button>
+      </span>
     </div>
   );
 };

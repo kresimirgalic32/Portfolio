@@ -30,17 +30,18 @@ const Navbar = () => {
       <div>
         <ul>
           <li>
-            <Link
-              to="https://github.com/kresimirgalic32"
-              className="contacts text"
+            <a
+              href="https://github.com/kresimirgalic32"
+              target="popup"
+              className="text"
             >
               github
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="mailto:me" className="contacts text">
+            <a href="mailto:kresimir.galic32@gmail.com" className="text">
               mail
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
