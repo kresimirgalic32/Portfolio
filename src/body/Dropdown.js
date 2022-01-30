@@ -1,18 +1,29 @@
-import React from "react";
-import $ from "jquery";
+import { render } from "@testing-library/react";
+import React, { useState } from "react";
 
+// class Dropdown extends Component{
 const Dropdown = () => {
-  const handleClick = () => {
-    $("#dropdown").click(function () {
-      $("span").hide();
-    });
-  };
+  // constructor(props) {
+  //   super(props);
+  //   this.wrapperRef = React.createRef();
+  // }
+
+  // handleClick() {
+  //   const wrapper = this.wrapperRef.current;
+  //   wrapper.classList.toggle("nav-open");
+  // }
+
+  // const [isActive, setActive] = useState(false);
+
+  // const handleClick = (props) => {
+  //   props.setActive(!isActive);
+  //   // const wrapper = this.wrapperRef.current;
+  //   // wrapper.classList.toggle("nav-open");
+  // };
+
   return (
-    <div>
-      <span id="dropdown" className="dropdown">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <button type="button" className="btn" onClick={handleClick}></button>
-      </span>
+    <div id="dropdown" className="dropdown">
+      <button type="button" className="btn"></button>
     </div>
   );
 };

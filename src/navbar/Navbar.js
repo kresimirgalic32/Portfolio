@@ -28,7 +28,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div>
-        <ul>
+        <ul id="socials">
           <li>
             <a
               href="https://github.com/kresimirgalic32"

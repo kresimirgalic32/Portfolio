@@ -1,14 +1,27 @@
+/* .nav-mobile {
+  margin-top: -24px;
+  margin-left: -8px;
+
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+} */
 .nav {
   padding-bottom: 200px;
-  padding-top: 70px;
 }
+.nav-close {
+  padding-top: 10px;
+}
+.nav-open {
+  display: none;
+}
+
 .home {
   background-color: #015313;
   background-size: cover;
   height: 100vh;
   width: 100vw;
   margin: -8px;
-  margin-top: -67px;
 }
 
 .about {
@@ -16,7 +29,6 @@
   height: 100vh;
   width: 100vw;
   margin: -8px;
-  margin-top: -67px;
 }
 
 .image {
@@ -125,6 +137,7 @@ h3 {
   height: 60px;
   width: 60px;
   margin-left: calc(50vw - 30px);
+  margin-top: 10vh;
 }
 .btn:hover {
   background-image: url(./assets/dropdown-hover.svg);
@@ -143,14 +156,29 @@ h3 {
   background-image: url(./assets/rock-climbing-hover.svg);
 }
 .button-box {
-  margin-top: calc(45vh - 293px);
+  margin-top: calc(45vh - 69px);
   margin-left: calc(50vw - 5vh);
 }
 .center {
   padding: 40%;
   padding-top: 30%;
 }
+.button-close {
+  display: none;
+}
+.page-close {
+  height: 0;
+}
+.wrapper {
+  display: none;
+}
+.web {
+  display: none;
+}
 
+.dropdown-open {
+  display: none;
+}
 @media (max-width: 1000px) {
   .wrap {
     float: none;
@@ -169,11 +197,14 @@ h3 {
     margin-left: calc(50% - 22.5vw);
   }
 }
+.nav-close-mobile {
+  display: none;
+}
 
 @media (max-width: 768px) {
-  li {
+  /* .container {
     display: none;
-  }
+  } */
   .dropdown {
     display: initial;
   }
@@ -181,8 +212,55 @@ h3 {
     padding-bottom: 100px;
   }
   .button-box {
-    margin-top: calc(45vh - 193px);
+    margin-top: calc(45vh - 233px);
   }
+  .mobile {
+    background: blue;
+    height: calc(100vh);
+    width: 100vw;
+    margin-left: -8px;
+    margin-top: -24px;
+    margin-bottom: -8px;
+  }
+
+  .web {
+    display: initial;
+  }
+  .nav-close {
+    display: none;
+  }
+  .button-box {
+    margin-top: calc(35vh - 60px);
+  }
+  li {
+    display: list-item;
+    padding-top: 9vh;
+  }
+  .container {
+    display: list-item;
+    text-align: center;
+  }
+
+  ul {
+    margin: auto;
+    list-style-type: none;
+  }
+  #socials {
+    padding-top: 10vh;
+  }
+}
+.about-nav-open {
+  display: none;
+}
+.bttn {
+  height: 3.5vh;
+  width: 3.5vh;
+  background: url(./assets/back.svg);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  margin-top: 8vh;
+  margin-left: 8vh;
 }
 @media (max-width: 400px) {
   .wrap {
@@ -197,7 +275,4 @@ h3 {
   100% {
     opacity: 1;
   }
-}
-.test {
-  background: blue;
 }

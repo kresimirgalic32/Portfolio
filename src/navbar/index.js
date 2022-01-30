@@ -12,7 +12,7 @@ import Navbar from "./Navbar";
 const Index = () => {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
 
