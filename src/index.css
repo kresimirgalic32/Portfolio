@@ -10,7 +10,7 @@
   padding-bottom: 200px;
 }
 .nav-close {
-  padding-top: 10px;
+  padding-top: 50px;
 }
 .nav-open {
   display: none;
@@ -25,7 +25,7 @@
 }
 
 .about {
-  background: #241e4e;
+  background: #3d157d;
   height: 100vh;
   width: 100vw;
   margin: -8px;
@@ -50,16 +50,14 @@
   margin-top: calc(10% - 5vw);
 }
 .projects {
-  background-color: rgb(0, 70, 92);
+  background-color: #b52a21;
   margin: -8px;
-  margin-top: -67px;
   height: 100vh;
   width: 100vw;
 }
 .curriculum {
   background-color: black;
   margin: -8px;
-  margin-top: -67px;
   height: 100vh;
   width: 100vw;
 }
@@ -99,7 +97,7 @@ li {
   text-decoration: none;
 }
 .link:hover {
-  color: #ffd046;
+  color: #b52a21;
 }
 
 h1 {
@@ -142,6 +140,19 @@ h3 {
 .btn:hover {
   background-image: url(./assets/dropdown-hover.svg);
 }
+.btn-white {
+  background: url(./assets/dropdown-white.svg);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 60px;
+  width: 60px;
+  margin-left: calc(50vw - 30px);
+  margin-top: 10vh;
+}
+.btn-white:hover {
+  background-image: url(./assets/dropdown-hover.svg);
+}
 
 .button {
   height: 10vh;
@@ -160,8 +171,8 @@ h3 {
   margin-left: calc(50vw - 5vh);
 }
 .center {
-  padding: 40%;
-  padding-top: 30%;
+  margin: 40%;
+  margin-top: 30%;
 }
 .button-close {
   display: none;
