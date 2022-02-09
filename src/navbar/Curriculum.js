@@ -27,7 +27,7 @@ const Curriculum = () => {
             ></button>
           </div>
           <div className="center">
-            <h1 className="text">Work in Progress</h1>
+            <h1 className="text">Work in Progress, TEST</h1>
           </div>
         </div>
       </div>

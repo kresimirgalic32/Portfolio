@@ -31,8 +31,17 @@ const Home = () => {
           </div>
           {/* this is dropdown */}
 
-          <div className="button-box">
+          {/* <div className="button-box">
             <Button></Button>
+          </div> */}
+          <div className="home-text center">
+            Welcome to my home, feel free to take a{" "}
+            <video id="background-video" autoPlay loop muted>
+              {" "}
+              <source src="../assets/video_preview_h264.mp4" type="video/mp4" />
+            </video>{" "}
+            <span className="look">look</span>
+            around.
           </div>
         </div>
       </div>

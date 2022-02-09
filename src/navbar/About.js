@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-
+import { Component } from "react";
+import Timeline from "./Timeline/Timeline";
 import Navbar from "./Navbar";
 const About = () => {
   const [isActive, setActive] = useState(false);
-
   const handleClick = () => {
     setActive(!isActive);
   };
-
   return (
     <div>
       <div className={isActive ? "mobile " : "nav-close-mobile"}>
@@ -29,25 +28,7 @@ const About = () => {
               ></button>
             </div>
           </div>
-
-          <div className="wrap">
-            <h1>
-              Hi, my name is Krešimir, I am a front-end developer living in
-              Čapljina, currently unemployed.
-            </h1>
-
-            <h2>
-              I like to tinker with precision and accuracy. From a computer
-              science background, I'm also passionate about 3D modeling.
-            </h2>
-
-            <h3>
-              <a href="/projects" className="link">
-                Get to know me
-              </a>
-            </h3>
-          </div>
-          <div className="image"></div>
+          <Timeline></Timeline>
         </div>
       </div>
     </div>
