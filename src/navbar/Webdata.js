@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 
-const Curriculum = () => {
+const Webdata = () => {
   const [isActive, setActive] = useState(false);
 
   const handleClick = () => {
@@ -35,4 +35,4 @@ const Curriculum = () => {
   );
 };
 
-export default Curriculum;
+export default Webdata;

@@ -21,8 +21,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/curriculum" className="text">
-              curriculum
+            <Link to="/web-data" className="text">
+              web data
             </Link>
           </li>
         </ul>

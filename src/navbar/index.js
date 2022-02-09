@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
-import Curriculum from "./Curriculum";
+import Webdata from "./Webdata";
 import Github from "./Github";
 import Mail from "./Mail";
 import Error from "./Error";
@@ -20,7 +20,7 @@ const Index = () => {
 
         <Route exact path="/projects" element={<Projects />} />
 
-        <Route exact path="/curriculum" element={<Curriculum />} />
+        <Route exact path="/web-data" element={<Webdata />} />
         <Route
           exact
           path="https://github.com/kresimirgalic32"

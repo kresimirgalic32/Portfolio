@@ -26,7 +26,7 @@
   /* z-index: -3; */
 }
 .home-text {
-  color: white;
+  color: #fffff3;
   font-size: 3vw;
   font-family: arial;
   line-height: 5vw;
@@ -54,7 +54,8 @@
   z-index: 4;
 }
 .about {
-  background: #3d157d;
+  /* dark sienna */
+  background: #36151e;
   height: 100vh;
   width: 100vw;
   margin: -8px;
@@ -102,12 +103,14 @@
   margin-bottom: 15vh;
   position: absolute;
   z-index: 6;
+  animation: refresh 1s ease-out forwards;
 }
 .dot {
   margin-right: 5vw;
   margin-top: -90px;
   position: absolute;
   z-index: 7;
+  animation: refresh 0.3s ease-out forwards;
 }
 /* .timeline .dot {
   margin-right: 5vw;
@@ -142,7 +145,7 @@
 .small {
   height: 20px;
   width: 20px;
-  background-color: #a9f5c5;
+  background-color: #fffff3;
   border-radius: 50%;
   border-style: solid;
   border-color: black;
@@ -196,7 +199,7 @@
   border-radius: 50%;
   text-align: center;
   color: transparent;
-  font-size: 1px;
+  font-size: 0px;
   line-height: 25px;
 }
 .small-inv-1:hover {
@@ -205,6 +208,7 @@
   border-radius: 0;
   color: initial;
   font-size: initial;
+  color: #fffff3;
 }
 .small-inv-2 {
   margin-left: 200px;
@@ -213,7 +217,7 @@
   border-radius: 50%;
   text-align: center;
   color: transparent;
-  font-size: 1px;
+  font-size: 0px;
   line-height: 25px;
 }
 .small-inv-2:hover {
@@ -222,6 +226,7 @@
   border-radius: 0;
   color: initial;
   font-size: initial;
+  color: #fffff3;
 }
 .small-inv-3 {
   margin-left: 200px;
@@ -230,7 +235,7 @@
   border-radius: 50%;
   text-align: center;
   color: transparent;
-  font-size: 1px;
+  font-size: 0px;
   line-height: 25px;
 }
 .small-inv-3:hover {
@@ -239,6 +244,7 @@
   border-radius: 0;
   color: initial;
   font-size: initial;
+  color: #fffff3;
 }
 .small-inv-4 {
   /* margin-top: -5px; */
@@ -248,7 +254,7 @@
   border-radius: 50%;
   text-align: center;
   color: transparent;
-  font-size: 1px;
+  font-size: 0px;
   line-height: 25px;
 }
 .small-inv-4:hover {
@@ -257,6 +263,7 @@
   border-radius: 0;
   color: initial;
   font-size: initial;
+  color: #fffff3;
 }
 .small-inv-5 {
   margin-left: 200px;
@@ -265,7 +272,7 @@
   border-radius: 50%;
   text-align: center;
   color: transparent;
-  font-size: 1px;
+  font-size: 0px;
   line-height: 25px;
 }
 .small-inv-5:hover {
@@ -274,6 +281,7 @@
   border-radius: 0;
   color: initial;
   font-size: initial;
+  color: #fffff3;
 }
 .small-inv-6 {
   margin-left: 200px;
@@ -282,7 +290,7 @@
   border-radius: 50%;
   text-align: center;
   color: transparent;
-  font-size: 1px;
+  font-size: 0px;
   line-height: 25px;
 }
 .small-inv-6:hover {
@@ -291,6 +299,7 @@
   border-radius: 0;
   color: initial;
   font-size: initial;
+  color: #fffff3;
 }
 .small-inv-7 {
   margin-left: 200px;
@@ -299,7 +308,7 @@
   border-radius: 50%;
   text-align: center;
   color: transparent;
-  font-size: 1px;
+  font-size: 0px;
   line-height: 25px;
 }
 .small-inv-7:hover {
@@ -308,6 +317,7 @@
   border-radius: 0;
   color: initial;
   font-size: initial;
+  color: #fffff3;
 }
 .small-inv-8 {
   margin-left: 200px;
@@ -316,7 +326,7 @@
   border-radius: 50%;
   text-align: center;
   color: transparent;
-  font-size: 1px;
+  font-size: 0px;
   line-height: 25px;
 }
 .small-inv-8:hover {
@@ -325,6 +335,7 @@
   border-radius: 0;
   color: initial;
   font-size: initial;
+  color: #fffff3;
 }
 .small-inv-9 {
   margin-left: 200px;
@@ -333,7 +344,7 @@
   border-radius: 50%;
   text-align: center;
   color: transparent;
-  font-size: 1px;
+  font-size: 0px;
   line-height: 25px;
 }
 .small-inv-9:hover {
@@ -342,45 +353,38 @@
   border-radius: 0;
   color: initial;
   font-size: initial;
+  color: #fffff3;
 }
 .active {
-  background-color: red;
+  background-color: #988f2a;
 }
-/* .dot-big-exp {
-  position: absolute;
-  z-index: 1;
-  margin-left: calc(95vw - 15px);
-  margin-top: calc(5vh - 205px);
-  margin-right: calc(5vh +10px);
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background-color: black;
+.timeline-text-big {
+  font-weight: 400;
+  font-size: 20px;
+  /* Ivory */
+  color: #fffff3;
+  animation: refresh 1s ease-out forwards;
 }
-.dot-big-edu {
-  position: absolute;
-  z-index: 1;
-  margin-left: calc(95vw - 15px);
-  margin-top: calc(50vh - 205px);
-  margin-right: calc(5vh +10px);
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background-color: black; 
+.timeline-text-small {
+  font-weight: 300;
+  /* Ivory */
+  color: #fffff3;
 }
-*/
-/* .dot-small {
-  position: absolute;
-  z-index: 1;
-  margin-left: calc(95vh - 10px);
-  margin-right: calc(5vh +10px);
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background-color: black;
-} */
+.company {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+.job {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+}
+
 .projects {
-  background-color: #b52a21;
+  background-color: #721610;
   margin: -8px;
   height: 100vh;
   width: 100vw;
@@ -396,6 +400,8 @@
   padding-left: 100px;
   max-width: 440px;
   float: left;
+  position: absolute;
+  z-index: 9;
   animation: refresh 1s ease-out forwards;
 }
 
@@ -419,13 +425,13 @@ li {
 } */
 
 .text {
-  color: white;
+  color: #fffff3;
   text-decoration: none;
   font-size: 23px;
   font-family: arial;
 }
 .link {
-  color: white;
+  color: #fffff3;
   text-decoration: none;
 }
 .link:hover {
@@ -457,6 +463,12 @@ li {
 .dropdown {
   display: none;
 }
+/* .inline-svg {
+  display: inline;
+  margin-left: 0.22em;
+  width: 0.28em;
+  height: 1em;
+} */
 
 .btn {
   background: url(./assets/dropdown.svg);
@@ -523,7 +535,10 @@ li {
 .dropdown-open {
   display: none;
 }
-@media (max-width: 1000px) {
+.nav-close-mobile {
+  display: none;
+}
+/* @media (max-width: 1000px) {
   .wrap {
     float: none;
     padding-left: 0;
@@ -540,12 +555,12 @@ li {
     width: 45vw;
     margin-left: calc(50% - 22.5vw);
   }
-}
-.nav-close-mobile {
-  display: none;
-}
+} */
 
 @media (max-width: 768px) {
+  .temp {
+    display: none;
+  }
   /* .container {
     display: none;
   } */
@@ -559,7 +574,8 @@ li {
     margin-top: calc(45vh - 233px);
   }
   .mobile {
-    background: blue;
+    /* royal blue dark */
+    background: #0a2472;
     height: calc(100vh);
     width: 100vw;
     margin-left: -8px;

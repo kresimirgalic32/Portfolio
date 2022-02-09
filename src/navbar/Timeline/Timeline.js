@@ -377,7 +377,7 @@ const Timeline = () => {
           <Highschool></Highschool>
         </div>
       </div>
-      <div className="dot">
+      <div className="dot temp">
         <div className="big"></div>
         <div className="wrapper-1">
           <div className={isActive1 ? "small  active" : "small"}></div>
@@ -394,9 +394,9 @@ const Timeline = () => {
           <div className={isActive9 ? "small  active" : "small"}></div>
         </div>
       </div>
-      <div>
+      <div className="temp">
         <div className="dot-inv">
-          <div className="big-inv">EXPERIENCE</div>
+          <div className="big-inv timeline-text-big">EXPERIENCE</div>
           <div className="wrapper-1-inv">
             <button
               className="btn-timeline small-inv-1"
@@ -441,7 +441,7 @@ const Timeline = () => {
               HEPOK
             </button>
           </div>
-          <div className="big-inv">EDUCATION</div>
+          <div className="big-inv timeline-text-big">EDUCATION</div>
           <div className="wrapper-2-inv">
             <button
               className="btn-timeline small-inv-7"
