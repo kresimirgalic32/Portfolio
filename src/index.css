@@ -517,7 +517,8 @@ li {
   text-decoration: none;
 }
 .link:hover {
-  color: #b52a21;
+  /* Tea Green */
+  color: #cde7b0;
 }
 .first-text {
   max-width: 440px;
