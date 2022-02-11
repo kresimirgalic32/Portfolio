@@ -124,7 +124,7 @@ const Timeline = () => {
   };
 
   return (
-    <div>
+    <div className="temp">
       <div>
         <div
           className={
@@ -174,7 +174,7 @@ const Timeline = () => {
               : "none1"
           }
         >
-          <Wolt></Wolt>
+          <Courses></Courses>
         </div>
         <div
           className={
@@ -199,7 +199,7 @@ const Timeline = () => {
               : "none1"
           }
         >
-          <Vivat></Vivat>
+          <Wolt></Wolt>
         </div>
         <div
           className={
@@ -224,7 +224,7 @@ const Timeline = () => {
               : "none1"
           }
         >
-          <Ivomix></Ivomix>
+          <Vivat></Vivat>
         </div>
         <div
           className={
@@ -249,7 +249,7 @@ const Timeline = () => {
               : "none1"
           }
         >
-          <Construction></Construction>
+          <University></University>
         </div>
         <div
           className={
@@ -274,7 +274,7 @@ const Timeline = () => {
               : "none1"
           }
         >
-          <Dominant></Dominant>
+          <Ivomix></Ivomix>
         </div>
         <div
           className={
@@ -299,7 +299,7 @@ const Timeline = () => {
               : "none1"
           }
         >
-          <Hepok></Hepok>
+          <Construction></Construction>
         </div>
         <div
           className={
@@ -324,7 +324,7 @@ const Timeline = () => {
               : "none1"
           }
         >
-          <University></University>
+          <Dominant></Dominant>
         </div>
         <div
           className={
@@ -349,7 +349,7 @@ const Timeline = () => {
               : "none1"
           }
         >
-          <Courses></Courses>
+          <Highschool></Highschool>
         </div>
         <div
           className={
@@ -374,96 +374,97 @@ const Timeline = () => {
               : "none1"
           }
         >
-          <Highschool></Highschool>
+          <Hepok></Hepok>
         </div>
       </div>
       <div className="dot temp">
         <div className="big"></div>
-        <div className="wrapper-1">
-          <div className={isActive1 ? "small  active" : "small"}></div>
+        <div className="wrapper1">
+          <div className={isActive1 ? "small-e  active-e" : "small-e"}></div>
           <div className={isActive2 ? "small  active" : "small"}></div>
           <div className={isActive3 ? "small  active" : "small"}></div>
-          <div className={isActive4 ? "small  active" : "small"}></div>
+          <div className={isActive4 ? "small-e  active-e" : "small-e"}></div>
           <div className={isActive5 ? "small  active" : "small"}></div>
           <div className={isActive6 ? "small  active" : "small"}></div>
-        </div>
-        <div className="big"></div>
-        <div className="wrapper-2">
           <div className={isActive7 ? "small  active" : "small"}></div>
-          <div className={isActive8 ? "small  active" : "small"}></div>
+          <div className={isActive8 ? "small-e  active-e" : "small-e"}></div>
           <div className={isActive9 ? "small  active" : "small"}></div>
         </div>
+        <div className="big"></div>
       </div>
       <div className="temp">
         <div className="dot-inv">
-          <div className="big-inv timeline-text-big">EXPERIENCE</div>
-          <div className="wrapper-1-inv">
+          <div className="big-inv timeline-text-big color-exp-big">
+            EXPERIENCE
+          </div>
+          <div className="wrapper-inv">
             <button
-              className="btn-timeline small-inv-1"
+              className="btn-timeline small-inv-1 color-edu"
               type="button"
               onClick={handleClick1}
-            >
-              WOLT
-            </button>
-            <button
-              className="btn-timeline small-inv-2"
-              type="button"
-              onClick={handleClick2}
-            >
-              VIVAT
-            </button>
-            <button
-              className="btn-timeline small-inv-3"
-              type="button"
-              onClick={handleClick3}
-            >
-              IVOMIX
-            </button>
-            <button
-              className="btn-timeline small-inv-4"
-              type="button"
-              onClick={handleClick4}
-            >
-              CONSTRUCTION
-            </button>
-            <button
-              className="btn-timeline small-inv-5"
-              type="button"
-              onClick={handleClick5}
-            >
-              DOMINANT
-            </button>
-            <button
-              className="btn-timeline small-inv-6"
-              type="button"
-              onClick={handleClick6}
-            >
-              HEPOK
-            </button>
-          </div>
-          <div className="big-inv timeline-text-big">EDUCATION</div>
-          <div className="wrapper-2-inv">
-            <button
-              className="btn-timeline small-inv-7"
-              type="button"
-              onClick={handleClick7}
-            >
-              UNIVERSITY
-            </button>
-            <button
-              className="btn-timeline small-inv-8"
-              type="button"
-              onClick={handleClick8}
             >
               COURSES
             </button>
             <button
-              className="btn-timeline small-inv-9"
+              className="btn-timeline small-inv-2 color-exp"
               type="button"
-              onClick={handleClick9}
+              onClick={handleClick2}
+            >
+              WOLT
+            </button>
+            <button
+              className="btn-timeline small-inv-3 color-exp"
+              type="button"
+              onClick={handleClick3}
+            >
+              VIVAT
+            </button>
+            <button
+              className="btn-timeline small-inv-4 color-edu"
+              type="button"
+              onClick={handleClick4}
+            >
+              UNIVERSITY
+            </button>
+            <button
+              className="btn-timeline small-inv-5 color-exp"
+              type="button"
+              onClick={handleClick5}
+            >
+              IVOMIX
+            </button>
+            <button
+              className="btn-timeline small-inv-6 color-exp"
+              type="button"
+              onClick={handleClick6}
+            >
+              CONSTRUCTION
+            </button>
+
+            <button
+              className="btn-timeline small-inv-7 color-exp"
+              type="button"
+              onClick={handleClick7}
+            >
+              DOMINANT
+            </button>
+            <button
+              className="btn-timeline small-inv-8 color-edu"
+              type="button"
+              onClick={handleClick8}
             >
               HIGH SCHOOL
             </button>
+            <button
+              className="btn-timeline small-inv-9 color-exp"
+              type="button"
+              onClick={handleClick9}
+            >
+              HEPOK
+            </button>
+          </div>
+          <div className="big-inv timeline-text-big color-edu-big">
+            EDUCATION
           </div>
         </div>
         <div className="timeline">

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "../body/Button";
 import Navbar from "./Navbar";
+import backgroundVideo from "../assets/video.mp4";
 
 const Home = () => {
   const [isActive, setActive] = useState(false);
@@ -18,6 +19,9 @@ const Home = () => {
 
       <div className={isActive ? "dropdown-open" : null}>
         <div className="home">
+          <video className="background-video" autoPlay loop muted>
+            <source src={backgroundVideo} type="video/mp4" />
+          </video>
           <div className="nav-close">
             <Navbar></Navbar>
           </div>
@@ -35,13 +39,7 @@ const Home = () => {
             <Button></Button>
           </div> */}
           <div className="home-text center">
-            Welcome to my home, feel free to take a{" "}
-            <video id="background-video" autoPlay loop muted>
-              {" "}
-              <source src="../assets/video_preview_h264.mp4" type="video/mp4" />
-            </video>{" "}
-            <span className="look">look</span>
-            around.
+            Welcome to my home, feel free to take a look around.
           </div>
         </div>
       </div>
