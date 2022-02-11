@@ -639,10 +639,15 @@ li {
   border-radius: 50%;
   border: solid;
   border-width: 10px;
-  border-color: rgb(131, 17, 17);
-  background-color: rgb(201, 13, 13);
+  border-color: rgb(179, 33, 33);
+  background-color: rgb(236, 35, 35);
   /* position: relative; */
   z-index: 4;
+  opacity: 0.3;
+}
+.project:hover {
+  border-color: rgb(5, 145, 145);
+  background-color: rgb(40, 211, 211);
 }
 .hair-salon {
   display: none;
@@ -655,10 +660,10 @@ div:hover + .hair-salon {
   border: initial;
   border-width: 0px;
   border-color: initial;
-  background-image: url(./assets/BMW.png);
+  /* background-image: url(./assets/BMW.png); */
   background-size: cover;
   background-position: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
@@ -674,10 +679,10 @@ div:hover + .chair {
   border: initial;
   border-width: 0px;
   border-color: initial;
-  /* background-image: url(./assets/BMW.png); */
+  background-image: url(./assets/Chair.jpg);
   background-size: cover;
   background-position: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
@@ -689,10 +694,10 @@ div:hover + .head {
   display: initial;
   height: 100vh;
   width: 100vw;
-  /* background-image: url(./assets/BMW.png); */
+  background-image: url(./assets/Eye.jpg);
   background-size: cover;
   background-position: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
@@ -705,14 +710,59 @@ div:hover + .orc {
   display: initial;
   height: 100vh;
   width: 100vw;
-  /* background-image: url(./assets/BMW.png); */
+  background-image: url(./assets/Orc.jpg);
   background-size: cover;
   background-position: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
 }
+@media (max-width: 774px) {
+  .wrapper-3d {
+    float: initial;
+    flex-direction: row;
+    width: 100vw;
+    height: 200px;
+  }
+  .wrapper-programiranje {
+    float: initial;
+    flex-direction: row;
+    width: 100vw;
+    height: 200px;
+  }
+  div:hover + .hair-salon {
+  }
+  div:hover + .chair {
+    background-image: url(./assets/Chair-mobile.jpg);
+  }
+  div:hover + .head {
+    background-image: url(./assets/head-mobile.jpg);
+  }
+  div:hover + .orc {
+    background-image: url(./assets/orc-mobile.jpg);
+  }
+}
+/* .wrapper-3d {
+  margin-top: 209px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  float: right;
+  height: calc(668px - 109px);
+  width: calc(50vw - 20px);
+}
+.project {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: solid;
+  border-width: 10px;
+  border-color: rgb(131, 17, 17);
+  background-color: rgb(201, 13, 13);
+  z-index: 4;
+} */
 
 .button-close {
   display: none;
