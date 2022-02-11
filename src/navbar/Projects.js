@@ -28,8 +28,18 @@ const Projects = () => {
             ></button>
           </div>
 
-          <div className="center">
-            <h1 className="text">Work in Progress</h1>
+          <div className="center2"></div>
+          <div className="wrapper-programiranje">
+            <div className="project"></div>
+            <div className="hair-salon"></div>
+          </div>
+          <div className="wrapper-3d">
+            <div className="project"></div>
+            <div className="chair"></div>
+            <div className="project"></div>
+            <div className="head"></div>
+            <div className="project"></div>
+            <div className="orc"></div>
           </div>
         </div>
       </div>

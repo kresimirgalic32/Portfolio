@@ -6,7 +6,6 @@ import About from "./About";
 import Projects from "./Projects";
 import Webdata from "./Webdata";
 import Github from "./Github";
-import Mail from "./Mail";
 import Error from "./Error";
 import Navbar from "./Navbar";
 const Index = () => {

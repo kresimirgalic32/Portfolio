@@ -464,10 +464,12 @@
 }
 
 .projects {
-  background-color: #721610;
+  background-color: #3d0804;
   margin: -8px;
   height: 100vh;
   width: 100vw;
+  position: absolute;
+  overflow: auto;
 }
 .curriculum {
   background-color: black;
@@ -602,6 +604,116 @@ li {
   margin: 20%;
   margin-top: 30%;
 }
+.divider {
+  position: absolute;
+  width: 4px;
+  height: calc(668px - 109px);
+  background-color: black;
+  margin-left: calc(50vw - 2px);
+  margin-top: 209px;
+  margin-bottom: calc(100vh - 668px - 159px);
+}
+.wrapper-programiranje {
+  margin-top: 209px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  float: left;
+  height: calc(668px - 109px);
+  width: calc(50vw - 20px);
+}
+.wrapper-3d {
+  margin-top: 209px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  float: right;
+  height: calc(668px - 109px);
+  width: calc(50vw - 20px);
+}
+.project {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: solid;
+  border-width: 10px;
+  border-color: rgb(131, 17, 17);
+  background-color: rgb(201, 13, 13);
+  /* position: relative; */
+  z-index: 4;
+}
+.hair-salon {
+  display: none;
+}
+div:hover + .hair-salon {
+  display: initial;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 0;
+  border: initial;
+  border-width: 0px;
+  border-color: initial;
+  background-image: url(./assets/BMW.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.chair {
+  display: none;
+}
+div:hover + .chair {
+  display: initial;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 0;
+  border: initial;
+  border-width: 0px;
+  border-color: initial;
+  /* background-image: url(./assets/BMW.png); */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.head {
+  display: none;
+}
+div:hover + .head {
+  display: initial;
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url(./assets/BMW.png); */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.orc {
+  display: none;
+}
+div:hover + .orc {
+  display: initial;
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url(./assets/BMW.png); */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
 .button-close {
   display: none;
 }
@@ -632,6 +744,8 @@ li {
     float: none;
     padding-left: 0;
     padding-left: calc(50% - 200px);
+  }
+  .wrapper-programiranje {
   }
 }
 
