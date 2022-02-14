@@ -43,7 +43,6 @@ const About = () => {
     setActive8(isActive8 ? false : false);
     setActive9(isActive9 ? false : false);
     setActivet(isActivet ? false : false);
-    // return handleClick;
   };
   const handleClick2 = () => {
     setActive2(!isActive2);
@@ -173,7 +172,6 @@ const About = () => {
             <div className="exp timeline-text-big color-exp-big">
               EXPERIENCE
             </div>
-            {/* <div className="big-inv"></div> */}
             <div className="edu timeline-text-big color-edu-big">EDUCATION</div>
             <div className="wrapper-inv">
               <button
@@ -260,13 +258,11 @@ const About = () => {
       >
         <div className="about">
           <div className="nav">
-            <div className="box">
-              <button
-                type="button"
-                className="timeline-btn"
-                onClick={handleClickt}
-              ></button>
-            </div>
+            <button
+              type="button"
+              className="timeline-btn"
+              onClick={handleClickt}
+            ></button>
             <div className="nav-close">
               <Navbar></Navbar>
             </div>
@@ -279,7 +275,7 @@ const About = () => {
             </div>
           </div>
           <Timeline></Timeline>
-          <div className="temp1 ">
+          <div className="timeline-mobile-open ">
             <div
               className={
                 isActive1

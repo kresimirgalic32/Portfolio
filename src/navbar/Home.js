@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className={isActive ? "mobile " : "nav-close-mobile"}>
+      <div className={isActive ? "mobile" : "nav-close-mobile"}>
         <button type="button" className="bttn" onClick={handleClick}></button>
         <Navbar></Navbar>
       </div>
@@ -25,7 +25,7 @@ const Home = () => {
           <div className="nav-close">
             <Navbar></Navbar>
           </div>
-          {/* this is dropdown */}
+
           <div className="dropdown">
             <button
               type="button"
@@ -33,11 +33,6 @@ const Home = () => {
               onClick={handleClick}
             ></button>
           </div>
-          {/* this is dropdown */}
-
-          {/* <div className="button-box">
-            <Button></Button>
-          </div> */}
           <div className="home-text center">
             Welcome to my home, feel free to take a look around.
           </div>
