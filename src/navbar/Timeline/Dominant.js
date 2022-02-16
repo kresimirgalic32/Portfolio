@@ -12,10 +12,10 @@ const Dominant = () => {
         defective crates when I had the time.
       </h3>
       <h3 className="third-text">
-        Working in an automated industrial plant I realized how strong is the
-        power of teamwork. It also made me realize that machines do not wait for
+        Working in an automated industrial plant I realised how strong the power
+        of teamwork is. It also made me realise that machines do not wait for
         you to finish, they just keep going, so keeping pace was really
-        important
+        important.
       </h3>
     </div>
   );

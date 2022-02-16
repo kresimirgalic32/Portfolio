@@ -19,17 +19,17 @@ const Wolt = () => {
           </div> */}
         {/* </a>{" "} */}
         consisted of collecting ready-for-delivery food from a restaurant,
-        delivery of said food to the user at the given location, taking care of
-        the cleanliness and functionality of the equipment and comunicating with
+        delivery of food to the user at the given location, taking care of the
+        cleanliness and functionality of the equipment and communicating with
         customers, restaurant workers and customer support. Aside from that,
         occasionally I would have to solve some unexpected problems such as food
         packaging problems.
       </h3>
 
       <h3 className="third-text">
-        Navigating trough a new town as big as Zagreb did pose some difficulties
-        at first but as soon as I got a few days under my belt, the job became a
-        lot more managable.
+        Navigating through a new town as big as Zagreb did pose some
+        difficulties at first but as soon as I got a few days under my belt, the
+        job became a lot more manageable.
       </h3>
     </div>
   );

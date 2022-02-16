@@ -27,11 +27,16 @@ const Projects = () => {
               onClick={handleClick}
             ></button>
           </div>
+          <div className="programing">
+            <h1 className="text">Programing</h1>
+          </div>
 
-          <div className="center2"></div>
           <div className="wrapper-programiranje">
             <div className="project"></div>
             <div className="hair-salon"></div>
+          </div>
+          <div className="modeling">
+            <h1 className="text">3D Modeling</h1>
           </div>
           <div className="wrapper-3d">
             <div className="project"></div>

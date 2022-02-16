@@ -11,8 +11,8 @@ const University = () => {
         calculator for counting calories.
       </h3>
       <h3 className="third-text">
-        But most of all, at college I learned how to think and solve problems
-        like a programer and how to adapt to a fast paced environment.
+        At college I learned how to think and solve problems like a programmer
+        and how to adapt to a fast paced environment.
       </h3>
     </div>
   );
