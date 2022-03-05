@@ -855,7 +855,7 @@ div:hover + .hair-salon {
   border: initial;
   border-width: 0px;
   border-color: initial;
-  /* background-image: url(./assets/BMW.png); */
+  background-image: url(./assets/Salon-Secrets.png);
   background-size: cover;
   background-position: center;
   position: fixed;
@@ -927,6 +927,7 @@ div:hover + .orc {
     height: 200px;
   }
   div:hover + .hair-salon {
+    background-image: url(./assets/Salon-Secrets-mobile.png);
   }
   div:hover + .chair {
     background-image: url(./assets/Chair-mobile.jpg);
