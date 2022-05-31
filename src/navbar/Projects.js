@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const Projects = () => {
@@ -34,6 +34,13 @@ const Projects = () => {
           <div className="wrapper-programiranje">
             <div className="project"></div>
             <div className="hair-salon"></div>
+            <a
+              href="https://kodius-assignment.herokuapp.com"
+              className="project"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+            <div className="kodius-assignment"></div>
           </div>
           <div className="modeling">
             <h1 className="text">3D Modeling</h1>
