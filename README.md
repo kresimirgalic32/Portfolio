@@ -1,3 +1,5 @@
+https://kresimir-galic-portfolio.herokuapp.com/
+
 1. npm install
 2. npm start
 
