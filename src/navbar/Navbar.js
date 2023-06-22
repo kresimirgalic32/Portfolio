@@ -6,22 +6,22 @@ const Navbar = () => {
       <div>
         <ul>
           <li>
-            <Link to="/" className="text">
+            <Link to="/Portfolio/" className="text">
               home
             </Link>
           </li>
           <li>
-            <Link to="/about" className="text">
+            <Link to="/Portfolio/about" className="text">
               about
             </Link>
           </li>
           <li>
-            <Link to="/projects" className="text">
+            <Link to="/Portfolio/projects" className="text">
               projects
             </Link>
           </li>
           <li>
-            <Link to="/web-data" className="text">
+            <Link to="/Portfolio/web-data" className="text">
               web data
             </Link>
           </li>

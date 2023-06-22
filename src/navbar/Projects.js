@@ -35,7 +35,7 @@ const Projects = () => {
             <div className="project"></div>
             <div className="hair-salon"></div>
             <a
-              href="https://kodius-assignment.herokuapp.com"
+              href="https://kresimirgalic32.github.io/kodius-assignment/"
               className="project"
               target="_blank"
               rel="noopener noreferrer"

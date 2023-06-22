@@ -13,13 +13,13 @@ const Index = () => {
     <Router>
       {/* <Navbar /> */}
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/Portfolio/" element={<Home />} />
 
-        <Route exact path="/about" element={<About />} />
+        <Route exact path="/Portfolio/about" element={<About />} />
 
-        <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/Portfolio/projects" element={<Projects />} />
 
-        <Route exact path="/web-data" element={<Webdata />} />
+        <Route exact path="/Portfolio/web-data" element={<Webdata />} />
         <Route
           exact
           path="https://github.com/kresimirgalic32"
